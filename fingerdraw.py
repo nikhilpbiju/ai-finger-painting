@@ -3,12 +3,12 @@ import mediapipe as mp
 import numpy as np
 import time
 
-# Init MediaPipe hand detector
+# Initializing MediaPipe hand detector
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(max_num_hands=1)
 mp_draw = mp.solutions.drawing_utils
 
-# Setup webcam and blank canvas
+# Setting up webcam and blank canvas
 cap = cv2.VideoCapture(0)
 canvas = np.zeros((480, 640, 3), dtype=np.uint8)
 
