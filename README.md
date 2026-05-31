@@ -5,13 +5,13 @@ The application supports multiple drawing colors, an eraser mode, canvas clearin
 
 Tech Stack
 
-  ->Python
+  -> Python
   
-  ->OpenCV  
+  -> OpenCV  
   
-  ->MediaPipe
+  -> MediaPipe
   
-  ->NumPy
+  -> NumPy
 
 Controls
 
